@@ -1,0 +1,149 @@
+.common{
+     text-align: center;
+     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+body{
+    background-color: rgb(222, 234, 239);
+}
+
+.header{
+    top: 100px;
+    height: 150px;
+    background-color: rgb(186, 208, 217);
+    color: rgb(67, 123, 146); 
+}
+
+h1{
+    margin: 0px;
+    padding: 0px; 
+    line-height: 150px;
+    font-weight: bold;
+    font-size: 35px;
+    white-space: nowrap;
+}
+
+nav{
+    background-color: rgb(67, 123, 146);
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav a:hover{
+    color: rgb(22, 48, 58);
+}
+
+nav a{
+    color: rgb(186, 208, 217);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 10px 15px;
+
+}
+
+.footer{
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(102, 151, 171);
+    color: rgb(222, 234, 239);
+    bottom: 0px;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    padding-top: 10px;
+}
+
+.top{
+    float: right;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #0085A1;
+    color: #FFFFFF;
+    padding: 16px 28px;
+    margin-right: 150px;
+    font-size: 14px;
+}
+
+.top:hover{
+    background-color: #006a81;
+}
+
+ol{
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    color: rgb(22, 48, 58);
+    line-height: 30px;
+    
+}
+
+ul{
+    list-style-position: inside;
+    font-size: 16px;
+    font-weight: normal; 
+}
+
+.prefecture{
+    font-size: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h4{
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.website:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(22, 48, 58);
+}
+
+.website:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(138, 161, 170);
+}
+
+.website:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(46, 127, 159);
+}
+
+p{
+    text-align: center;
+}
+
+.tableau{
+    display: block;
+    padding-left: 0px;
+    width: 1200px;
+    height: auto;
+}
+
+.main{
+    float: left;
+}
+
+.sub{
+    float: right;
+    font-size: 16px;
+}
